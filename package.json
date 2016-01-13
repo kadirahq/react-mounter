@@ -1,10 +1,10 @@
 {
   "name": "react-mounter",
   "version": "1.0.0",
-  "description": "A base NPM package for writing a NPM package in ES2015",
+  "description": "React Mounter lets you mount React components to DOM easily.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kadirahq/npm-base.git"
+    "url": "https://github.com/kadirahq/react-mounter.git"
   },
   "license": "MIT",
   "options": {
