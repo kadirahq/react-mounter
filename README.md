@@ -101,5 +101,7 @@ const mount2 = withOptions({
     rootId: 'the-root', 
     rootProps: {'className': 'some-class-name'}
 }, mount);
+
+mount2(WelcomeComponent, {name: 'Arunoda'});
 ```
 
