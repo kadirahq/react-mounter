@@ -37,7 +37,7 @@ mount(WelcomeComponent, {name: 'Arunoda'});
 
 ## Using as a Layout Manager
 
-You can user `react-mointer` as a layout Manager for Flow Router. Here's how to do it.
+You can user `react-mounter` as a layout Manager for Flow Router. Here's how to do it.
 
 Let's say we've a layout called MainLayout.
 
