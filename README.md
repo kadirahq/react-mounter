@@ -2,17 +2,17 @@
 
 React Mounter lets you mount React components to DOM easily.
 
+> React Mounter supports Server Side Rendering when used with [FlowRouter](https://github.com/kadirahq/flow-router).
+
 Normally, when you are rendering a React Component to the DOM, you need to do following things basically,
 
 * Create a root DOM node as the root node for React
 * Wait for the DOM to load properly
 * Then render the component
 
-React Mounter does all these for you. You just ask it to render a component. 
+React Mounter does all these for you. You just ask it to render a component.
 
-Additionally, React Mounter can work as a simple Layout Manager where you can use with Flow Router.
-
-> Support for Server Side Rendering with FlowRouter SSR is coming soon.
+Additionally, React Mounter can work as a simple Layout Manager where you can use with [Flow Router](https://github.com/kadirahq/flow-router).
 
 ## Basic Usage
 
@@ -98,10 +98,13 @@ By default React Mounter render our components into a DOM node called `react-roo
 ```js
 const {mount, withOptions} from `react-mounter`;
 const mount2 = withOptions({
-    rootId: 'the-root', 
+    rootId: 'the-root',
     rootProps: {'className': 'some-class-name'}
 }, mount);
 
 mount2(WelcomeComponent, {name: 'Arunoda'});
 ```
 
+## Server Side Rendering (SSR)
+
+SSR is supported when used with [FlowRouter SSR](https://github.com/kadirahq/flow-router/tree/ssr). Checkout this [sample app](https://github.com/kadira-samples/meteor-data-and-react).
