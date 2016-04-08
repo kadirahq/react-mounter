@@ -39,8 +39,8 @@
     "eslint-plugin-react": "3.x.x"
   },
   "peerDependencies": {
-    "react": "0.14.x",
-    "react-dom": "0.14.x"
+    "react": "0.14.x || 15.x.x",
+    "react-dom": "0.14.x || 15.x.x"
   },
   "dependencies": {
     "babel-runtime": "6.x.x",
